@@ -49,7 +49,7 @@ Template.plantMeasurementChart.onCreated(function() {
     this.subscribe('recentMeasurementByPlant', 10451577);
     console.log(this);
 
-})
+});
 
 
 Template.plantMeasurementChart.onRendered(function () {

@@ -1,2 +1,2 @@
 // client
-Meteor.subscribe('plantsAndUsers');
+//Meteor.subscribe('plantsAndUsers');

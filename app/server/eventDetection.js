@@ -26,6 +26,7 @@ Meteor.methods({
        } else {
            event.eventType = 'ok'
        }
+
        event.time = timestamp;
        event.plant_id = plantId;
        event.avg = currentAvg;

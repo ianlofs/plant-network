@@ -1,4 +1,4 @@
-phraseArrayNeglect = [
+let phraseArrayNeglect = [
     "If only I got watered",
     "I hope it rains soon",
     "I don't need it.... I don't need it...",
@@ -10,8 +10,9 @@ phraseArrayNeglect = [
     "I wonder how my neigbors are doing...",
     "f̶̛̫̲̥̠̠̰̯͢e̳̩̕͢͞é̯̞d̨͕͎̺̥m̹̩͞ͅe̤̮̮͉̺̪͞͠ȩ̧̗̟͎͖͖̝͕̺e̺̞̝̭̪̺̕͡e̢̟̫͟e̛̲̲͓̣͝",
     "..."
-]
-phraseArrayHappy = [
+];
+
+let phraseArrayHappy = [
     "It's a nice day today!",
     "It's a beautiful day outside.",
 
@@ -23,6 +24,6 @@ phraseArrayHappy = [
     "Love yourself! Love your plant!",
     "Is that water natural?",
     "I only drink organic water."
-]
+];
 
 

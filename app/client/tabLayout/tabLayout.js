@@ -1,12 +1,12 @@
 Template.tabLayout.events({
     'click #myplants': function(event, template) {
-        var pathRedirect = '/' + Meteor.userId() + '/plants';
+        var pathRedirect = '/plants/' +  Meteor.userId();
         if(FlowRouter.current().path !== pathRedirect) {
             FlowRouter.go(pathRedirect);
         }
     },
     'click #office': function(event, template) {
-        var pathRedirect = '/' + Meteor.userId() + '/nearby';
+        var pathRedirect = '/nearby/' +  Meteor.userId();
         if(FlowRouter.current().path !== pathRedirect) {
             FlowRouter.go(pathRedirect);
         }
